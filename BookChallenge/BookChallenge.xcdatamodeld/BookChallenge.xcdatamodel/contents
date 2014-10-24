@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13F34" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Comment" syncable="YES">
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="persons" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="comments" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Person" syncable="YES">
+        <attribute name="brand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shoeColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shoeSize" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="comments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Comment" inverseName="persons" inverseEntity="Comment" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Person" positionX="270" positionY="207" width="128" height="133"/>
+        <element name="Comment" positionX="288" positionY="261" width="128" height="73"/>
+    </elements>
+</model>

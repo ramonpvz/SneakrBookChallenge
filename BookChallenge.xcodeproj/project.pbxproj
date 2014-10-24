@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C32E3A6419F95B7F00463149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E3A6319F95B7F00463149 /* main.m */; };
+		C32E3A6719F95B7F00463149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E3A6619F95B7F00463149 /* AppDelegate.m */; };
+		C32E3A6A19F95B7F00463149 /* BookChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C32E3A6819F95B7F00463149 /* BookChallenge.xcdatamodeld */; };
+		C32E3A6D19F95B7F00463149 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E3A6C19F95B7F00463149 /* MasterViewController.m */; };
+		C32E3A7019F95B7F00463149 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E3A6F19F95B7F00463149 /* EditViewController.m */; };
+		C32E3A7319F95B7F00463149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32E3A7119F95B7F00463149 /* Main.storyboard */; };
+		C32E3A7519F95B7F00463149 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32E3A7419F95B7F00463149 /* Images.xcassets */; };
+		C32E3A7819F95B7F00463149 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32E3A7619F95B7F00463149 /* LaunchScreen.xib */; };
+		C32E3A8419F95B7F00463149 /* BookChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E3A8319F95B7F00463149 /* BookChallengeTests.m */; };
+		C32E3A8F19F95BC800463149 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E3A8E19F95BC800463149 /* Person.m */; };
+		C32E3A9319F95D7600463149 /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E3A9219F95D7600463149 /* PeopleViewController.m */; };
+		C32E3A9619F962DF00463149 /* people.json in Resources */ = {isa = PBXBuildFile; fileRef = C32E3A9419F962DF00463149 /* people.json */; };
+		C32E3A9719F962DF00463149 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C32E3A9519F962DF00463149 /* TemplateIcon2x.png */; };
+		C32E3A9A19F968F700463149 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E3A9919F968F700463149 /* DetailViewController.m */; };
+		C32E3A9C19F9723500463149 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32E3A9B19F9723500463149 /* CustomCell.xib */; };
+		C32E3A9F19F972E900463149 /* CustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E3A9E19F972E900463149 /* CustomCellTableViewCell.m */; };
+		C32E3AA219F98BB400463149 /* PostTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E3AA119F98BB400463149 /* PostTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C32E3A7E19F95B7F00463149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32E3A5619F95B7F00463149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32E3A5D19F95B7F00463149;
+			remoteInfo = BookChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C32E3A5E19F95B7F00463149 /* BookChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32E3A6219F95B7F00463149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32E3A6319F95B7F00463149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C32E3A6519F95B7F00463149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C32E3A6619F95B7F00463149 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C32E3A6919F95B7F00463149 /* BookChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookChallenge.xcdatamodel; sourceTree = "<group>"; };
+		C32E3A6B19F95B7F00463149 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C32E3A6C19F95B7F00463149 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C32E3A6E19F95B7F00463149 /* EditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		C32E3A6F19F95B7F00463149 /* EditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		C32E3A7219F95B7F00463149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C32E3A7419F95B7F00463149 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C32E3A7719F95B7F00463149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C32E3A7D19F95B7F00463149 /* BookChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32E3A8219F95B7F00463149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32E3A8319F95B7F00463149 /* BookChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookChallengeTests.m; sourceTree = "<group>"; };
+		C32E3A8D19F95BC800463149 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C32E3A8E19F95BC800463149 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C32E3A9119F95D7600463149 /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
+		C32E3A9219F95D7600463149 /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
+		C32E3A9419F962DF00463149 /* people.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = people.json; sourceTree = "<group>"; };
+		C32E3A9519F962DF00463149 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		C32E3A9819F968F700463149 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C32E3A9919F968F700463149 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C32E3A9B19F9723500463149 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		C32E3A9D19F972E900463149 /* CustomCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellTableViewCell.h; sourceTree = "<group>"; };
+		C32E3A9E19F972E900463149 /* CustomCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellTableViewCell.m; sourceTree = "<group>"; };
+		C32E3AA019F98BB400463149 /* PostTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewController.h; sourceTree = "<group>"; };
+		C32E3AA119F98BB400463149 /* PostTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32E3A5B19F95B7F00463149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32E3A7A19F95B7F00463149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C32E3A5519F95B7F00463149 = {
+			isa = PBXGroup;
+			children = (
+				C32E3A6019F95B7F00463149 /* BookChallenge */,
+				C32E3A8019F95B7F00463149 /* BookChallengeTests */,
+				C32E3A5F19F95B7F00463149 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C32E3A5F19F95B7F00463149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32E3A5E19F95B7F00463149 /* BookChallenge.app */,
+				C32E3A7D19F95B7F00463149 /* BookChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32E3A6019F95B7F00463149 /* BookChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				C32E3A6519F95B7F00463149 /* AppDelegate.h */,
+				C32E3A6619F95B7F00463149 /* AppDelegate.m */,
+				C32E3A6B19F95B7F00463149 /* MasterViewController.h */,
+				C32E3A6C19F95B7F00463149 /* MasterViewController.m */,
+				C32E3A6E19F95B7F00463149 /* EditViewController.h */,
+				C32E3A6F19F95B7F00463149 /* EditViewController.m */,
+				C32E3A7119F95B7F00463149 /* Main.storyboard */,
+				C32E3A7419F95B7F00463149 /* Images.xcassets */,
+				C32E3A7619F95B7F00463149 /* LaunchScreen.xib */,
+				C32E3A6819F95B7F00463149 /* BookChallenge.xcdatamodeld */,
+				C32E3A6119F95B7F00463149 /* Supporting Files */,
+				C32E3A8D19F95BC800463149 /* Person.h */,
+				C32E3A8E19F95BC800463149 /* Person.m */,
+				C32E3A9119F95D7600463149 /* PeopleViewController.h */,
+				C32E3A9219F95D7600463149 /* PeopleViewController.m */,
+				C32E3A9819F968F700463149 /* DetailViewController.h */,
+				C32E3A9919F968F700463149 /* DetailViewController.m */,
+				C32E3A9B19F9723500463149 /* CustomCell.xib */,
+				C32E3A9D19F972E900463149 /* CustomCellTableViewCell.h */,
+				C32E3A9E19F972E900463149 /* CustomCellTableViewCell.m */,
+				C32E3AA019F98BB400463149 /* PostTableViewController.h */,
+				C32E3AA119F98BB400463149 /* PostTableViewController.m */,
+			);
+			path = BookChallenge;
+			sourceTree = "<group>";
+		};
+		C32E3A6119F95B7F00463149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C32E3A6219F95B7F00463149 /* Info.plist */,
+				C32E3A6319F95B7F00463149 /* main.m */,
+				C32E3A9419F962DF00463149 /* people.json */,
+				C32E3A9519F962DF00463149 /* TemplateIcon2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C32E3A8019F95B7F00463149 /* BookChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C32E3A8319F95B7F00463149 /* BookChallengeTests.m */,
+				C32E3A8119F95B7F00463149 /* Supporting Files */,
+			);
+			path = BookChallengeTests;
+			sourceTree = "<group>";
+		};
+		C32E3A8119F95B7F00463149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C32E3A8219F95B7F00463149 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32E3A5D19F95B7F00463149 /* BookChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32E3A8719F95B7F00463149 /* Build configuration list for PBXNativeTarget "BookChallenge" */;
+			buildPhases = (
+				C32E3A5A19F95B7F00463149 /* Sources */,
+				C32E3A5B19F95B7F00463149 /* Frameworks */,
+				C32E3A5C19F95B7F00463149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookChallenge;
+			productName = BookChallenge;
+			productReference = C32E3A5E19F95B7F00463149 /* BookChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C32E3A7C19F95B7F00463149 /* BookChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32E3A8A19F95B7F00463149 /* Build configuration list for PBXNativeTarget "BookChallengeTests" */;
+			buildPhases = (
+				C32E3A7919F95B7F00463149 /* Sources */,
+				C32E3A7A19F95B7F00463149 /* Frameworks */,
+				C32E3A7B19F95B7F00463149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32E3A7F19F95B7F00463149 /* PBXTargetDependency */,
+			);
+			name = BookChallengeTests;
+			productName = BookChallengeTests;
+			productReference = C32E3A7D19F95B7F00463149 /* BookChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32E3A5619F95B7F00463149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = globant;
+				TargetAttributes = {
+					C32E3A5D19F95B7F00463149 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C32E3A7C19F95B7F00463149 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C32E3A5D19F95B7F00463149;
+					};
+				};
+			};
+			buildConfigurationList = C32E3A5919F95B7F00463149 /* Build configuration list for PBXProject "BookChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32E3A5519F95B7F00463149;
+			productRefGroup = C32E3A5F19F95B7F00463149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32E3A5D19F95B7F00463149 /* BookChallenge */,
+				C32E3A7C19F95B7F00463149 /* BookChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32E3A5C19F95B7F00463149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32E3A9C19F9723500463149 /* CustomCell.xib in Resources */,
+				C32E3A9719F962DF00463149 /* TemplateIcon2x.png in Resources */,
+				C32E3A9619F962DF00463149 /* people.json in Resources */,
+				C32E3A7319F95B7F00463149 /* Main.storyboard in Resources */,
+				C32E3A7819F95B7F00463149 /* LaunchScreen.xib in Resources */,
+				C32E3A7519F95B7F00463149 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32E3A7B19F95B7F00463149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32E3A5A19F95B7F00463149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32E3A8F19F95BC800463149 /* Person.m in Sources */,
+				C32E3A9319F95D7600463149 /* PeopleViewController.m in Sources */,
+				C32E3A9F19F972E900463149 /* CustomCellTableViewCell.m in Sources */,
+				C32E3AA219F98BB400463149 /* PostTableViewController.m in Sources */,
+				C32E3A7019F95B7F00463149 /* EditViewController.m in Sources */,
+				C32E3A9A19F968F700463149 /* DetailViewController.m in Sources */,
+				C32E3A6D19F95B7F00463149 /* MasterViewController.m in Sources */,
+				C32E3A6A19F95B7F00463149 /* BookChallenge.xcdatamodeld in Sources */,
+				C32E3A6719F95B7F00463149 /* AppDelegate.m in Sources */,
+				C32E3A6419F95B7F00463149 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32E3A7919F95B7F00463149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32E3A8419F95B7F00463149 /* BookChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C32E3A7F19F95B7F00463149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32E3A5D19F95B7F00463149 /* BookChallenge */;
+			targetProxy = C32E3A7E19F95B7F00463149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C32E3A7119F95B7F00463149 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32E3A7219F95B7F00463149 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C32E3A7619F95B7F00463149 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32E3A7719F95B7F00463149 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C32E3A8519F95B7F00463149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C32E3A8619F95B7F00463149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32E3A8819F95B7F00463149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C32E3A8919F95B7F00463149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C32E3A8B19F95B7F00463149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BookChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookChallenge.app/BookChallenge";
+			};
+			name = Debug;
+		};
+		C32E3A8C19F95B7F00463149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BookChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookChallenge.app/BookChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32E3A5919F95B7F00463149 /* Build configuration list for PBXProject "BookChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32E3A8519F95B7F00463149 /* Debug */,
+				C32E3A8619F95B7F00463149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32E3A8719F95B7F00463149 /* Build configuration list for PBXNativeTarget "BookChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32E3A8819F95B7F00463149 /* Debug */,
+				C32E3A8919F95B7F00463149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C32E3A8A19F95B7F00463149 /* Build configuration list for PBXNativeTarget "BookChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32E3A8B19F95B7F00463149 /* Debug */,
+				C32E3A8C19F95B7F00463149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C32E3A6819F95B7F00463149 /* BookChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C32E3A6919F95B7F00463149 /* BookChallenge.xcdatamodel */,
+			);
+			currentVersion = C32E3A6919F95B7F00463149 /* BookChallenge.xcdatamodel */;
+			path = BookChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C32E3A5619F95B7F00463149 /* Project object */;
+}
